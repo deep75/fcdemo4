@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: K8SVMSS.azurecr.io/deep75/fcdemo4
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: fcdemo4
