@@ -6,7 +6,7 @@ metadata:
     flux.weave.works/automated: "true"
   name: fcdemo-app
 spec:
-  replicas: 2
+  replicas: 10
   template:
     metadata:
       labels:
